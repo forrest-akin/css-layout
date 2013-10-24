@@ -1,3 +1,6 @@
+#General Notes
+Do not take your lead from the CSS you find on the source of these pages.
+
 # google.com
 
 Build a page that looks like http://google.com using HTML and CSS.
