@@ -26,7 +26,7 @@ A CDN stands for content delivery network. It minimizes the time it takes for vi
 
 ## Dev Tools 
 Making a change to your app's styling and having to refresh the page to see the change is a pain. Chrome Dev Tools allows you to make changes on the fly. Note: it will not save the changes made in Dev Tools without other tools, but it is great when trying to determine what styling properties to apply. 
-- Read how to use Chrome Dev Tools for CSS [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/?hl=en)
+- Read how to use [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/?hl=en) for CSS
 
 ## Basic requirements:
 Build a page that looks like http://google.com using HTML and vanilla CSS - no outside libraries! Do not look at the source code for the page until you have finished your implementation. 
