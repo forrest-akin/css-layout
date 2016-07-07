@@ -32,17 +32,37 @@ Making a change to your app's styling and having to refresh the page to see the 
 Build a page that looks like http://google.com using HTML and vanilla CSS - no outside libraries! Do not look at the source code for the page until you have finished your implementation. 
 
 // TODO: give students the HTML, but no containers 
+// TODO: Explain Box Model and default displays 
+// Box Model and display 
+- [ ]  Add a container around the buttons 
+
 - [ ] Break the design into sections. Each section should have a container that will hold elements inside it. What containers will you have? What semantic HTML elements should you use to represent the containters and elements inside? 
 - [ ] Create container elements for the nav, main-content, and footer.
-- [ ] Add a class to the main-content div. 
+- [ ] 
+
+// classes versus ids (selector specificity) 
 Why not an ID? Because IDs have a higher specificity than classes, it is difficult to override their specificity if needed. Many frontend devs only use classes. 
 
-
+// positioning
 - [ ] Position the containers for the nav, center-content, and footer appropriately. 
 - [ ] Horizontally center the "Google" logo, a text input, and a search button inside the center-content container.
+
+// reusing classes 
+- [ ] The two buttons below the input box share a lot of similar characteristics. Create a class .btn-main and store all shared styles in the class. 
+- [ ] Apply the class to both button elements. 
+
+// floating 
+- [ ] Separate the footer links into two unordered lists. 
+- [ ] Float the left and right footer links 
+
+// floating 
+- [ ] Separate the footer links into two unordered lists. 
+- [ ] Float the left and right footer links 
+
+
 
 Extra credit:
 
 - [ ] Make the site responsive without using a library like Bootstrap 
-- [ ] Import a custom Google Font 
+- [ ] Sprites are often used for images to reduce the number of image files that need to be sent over HTTP. Can you 
 
