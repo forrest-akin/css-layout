@@ -5,12 +5,12 @@ You are a front-end developer tasked with implementing the HTML/CSS for a mockup
 ![Alphabet Mockup](https://github.com/melindabernrdo/css-layout/blob/master/mockup.png)
 
 ## High Level Goals of this Sprint
--Know best practices about organizing CSS code 
--Evaluate different ways of selecting elements and overriding styles 
--Understand the Box Model
--Work with floats and positioning elements
--Gain exposure working with CSS frameworks like Bootstrap 
--Gain experience to responsive design 
+- Know best practices about organizing CSS code 
+- Evaluate different ways of selecting elements and overriding styles 
+- Understand the Box Model
+- Work with floats and positioning elements
+- Gain exposure working with CSS frameworks like Bootstrap 
+- Gain experience to responsive design 
 
 ## Project Setup 
 
