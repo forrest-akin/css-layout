@@ -2,7 +2,7 @@
 
 You are a front-end developer tasked with implementing the HTML/CSS for a mockup made by a designer at your company. After completing the bare minimum requirements, you will have built and styled a popular website, and understand fundamental CSS concepts, how to organize CSS code, and style a basic page. 
 
-//TODO: Add image of final page 
+![Alphabet Mockup](https://github.com/melindabernrdo/css-layout/blob/master/mockup.png)
 
 ## High Level Goals of this Sprint
 -Know best practices about organizing CSS code 
