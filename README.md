@@ -21,8 +21,12 @@ A CDN stands for content delivery network. It minimizes the time it takes for vi
 
 - [ ] Find a [CDN](https://cdnjs.com/) to add the [Normalize.CSS](https://necolas.github.io/normalize.css/) library to your page.
 
-### CSS 
+### Linking to Stylesheet 
 - [ ] Link your CSS file to your index.html 
+
+### Color Picker 
+A color picker allows you to find an exact hexadecimal color match for a color on a website. 
+- [ ] Install the Chrome (ColorZilla Color Picker)[http://www.colorzilla.com/]
 
 ## Dev Tools 
 Making a change to your app's styling and having to refresh the page to see the change is a pain. Chrome Dev Tools allows you to make changes on the fly. Note: it will not save the changes made in Dev Tools without other tools, but it is great when trying to determine what styling properties to apply. 
@@ -31,38 +35,48 @@ Making a change to your app's styling and having to refresh the page to see the 
 ## Basic requirements:
 Build a page that looks like http://google.com using HTML and vanilla CSS - no outside libraries! Do not look at the source code for the page until you have finished your implementation. 
 
-// TODO: give students the HTML, but no containers 
-// TODO: Explain Box Model and default displays 
-// Box Model and display 
-- [ ]  Add a container around the buttons 
+### CSS Sections
 
-- [ ] Break the design into sections. Each section should have a container that will hold elements inside it. What containers will you have? What semantic HTML elements should you use to represent the containters and elements inside? 
+Pages are composed of different sections. Each group of elements should be contained inside of another element, typically a <div></div> called a wrapper or a container. These containers compose the sections of a page.  
+
+- [ ] Break the design into sections. Each section should have a container that will hold a sub-group of elements inside it. 
 - [ ] Create container elements for the nav, main-content, and footer.
-- [ ] 
+- [ ] Add a different background color to each container. This helps with positioning elements and seeing their default size.
 
-// classes versus ids (selector specificity) 
-Why not an ID? Because IDs have a higher specificity than classes, it is difficult to override their specificity if needed. Many frontend devs only use classes. 
+### Default Styling 
+Before jumping into styling individual sections of the page, you should figure out common styling between elements. What styling should be shared and repeated across elements? Shared styles should be implemented as classes so that it can be applied to more than one element. 
+- [ ]  Set a default font size and arial on the body. The font-family is arial.
+- [ ]  Set the default font color using the color picker. 
+- [ ]  Change anchor tags (links) to not have an underline by default.
 
-// positioning
+### Learn about the [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+- [ ]  Change the default display of main-content to allow margin and padding to be applied. 
+- [ ]  Add padding and margin to space the elements in main-content.
+
+### Floats and Positioning
+Read about (floats and positioning)[http://learn.shayhowe.com/html-css/positioning-content/]
 - [ ] Position the containers for the nav, center-content, and footer appropriately. 
-- [ ] Horizontally center the "Google" logo, a text input, and a search button inside the center-content container.
+- [ ] Horizontally center the "Google" logo, a text input, and the buttons inside the main-content container. How does the display of the image and buttons affect how to center them?
+- [ ] Position the footer so it sticks to the bottom of the page.
+- [ ] Separate the footer links into two unordered lists. 
+- [ ] Float the footer links to the left and the right. 
 
-// reusing classes 
+### Shared Classes 
 - [ ] The two buttons below the input box share a lot of similar characteristics. Create a class .btn-main and store all shared styles in the class. 
 - [ ] Apply the class to both button elements. 
 
-// floating 
-- [ ] Separate the footer links into two unordered lists. 
-- [ ] Float the left and right footer links 
+### Pseudo-elements 
+- [ ] Absolutely position the microphone inside the input box. 
+- [ ] On hover, have the mouse turn into a pointer cursor. 
+- [ ] On hover, change the border color of the input box. Use color picker to determine the right color. 
 
-// floating 
-- [ ] Separate the footer links into two unordered lists. 
-- [ ] Float the left and right footer links 
-
-
+### Optimizations 
+It's best practice to pre-size images to the size needed, rather than 
+- [ ]  Remove the CSS properties that set a width and height to the user photo. 
+- [ ]  Replace the user photo with someone amusing.
+- [ ]  Size the user photo to be close to the size needed on the page. 
 
 Extra credit:
-
-- [ ] Make the site responsive without using a library like Bootstrap 
-- [ ] Sprites are often used for images to reduce the number of image files that need to be sent over HTTP. Can you 
+- [ ] Refactor the CSS to make the site responsive using vanilla css 
+- [ ] Sprites are often used for images to reduce the number of image files that need to be sent over HTTP. [Create a sprite](http://www.spritebox.net/) of all the images on the page and refactor the site to use sprites. 
 
