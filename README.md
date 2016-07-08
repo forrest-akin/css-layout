@@ -54,7 +54,7 @@ Before jumping into styling individual sections of the page, you should figure o
 - [ ]  Add padding and margin to space the elements in main-content.
 
 ### Floats and Positioning
-Read about (floats and positioning)[http://learn.shayhowe.com/html-css/positioning-content/]
+Read about [floats and positioning](http://learn.shayhowe.com/html-css/positioning-content/)
 - [ ] Position the containers for the nav, center-content, and footer appropriately. 
 - [ ] Horizontally center the "Google" logo, a text input, and the buttons inside the main-content container. How does the display of the image and buttons affect how to center them?
 - [ ] Position the footer so it sticks to the bottom of the page.
@@ -76,7 +76,7 @@ It's best practice to pre-size images to the size needed, rather than
 - [ ]  Replace the user photo with someone amusing.
 - [ ]  Size the user photo to be close to the size needed on the page. 
 
-Extra credit:
+### Extra credit:
 - [ ] Refactor the CSS to make the site responsive using vanilla css 
 - [ ] Sprites are often used for images to reduce the number of image files that need to be sent over HTTP. [Create a sprite](http://www.spritebox.net/) of all the images on the page and refactor the site to use sprites. 
 
