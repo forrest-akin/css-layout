@@ -25,7 +25,7 @@ A CDN stands for content delivery network. It minimizes the time it takes for vi
 
 ### Color Picker 
 A color picker allows you to find an exact hexadecimal color match for a color on a website. 
-- [ ] Install the Chrome (ColorZilla Color Picker)[http://www.colorzilla.com/]
+- [ ] Install the Chrome [ColorZilla Color Picker](http://www.colorzilla.com/)
 
 ## Dev Tools 
 Refreshing the page every time you make a change to your page's styling is a pain. Chrome Dev Tools allows you to make changes on the fly. Note: it will not save the changes made in Dev Tools to your css stylesheet without other tools, but it is useful when testing out styling properties to apply. 
@@ -47,8 +47,8 @@ Before jumping into styling individual sections of the page, think about common 
 - [ ] Set a default font size and arial on the body. The font-family is arial.
 - [ ] Set the default font color. Use the color picker to determine the color. 
 - [ ] Change anchor tags (links) to not have an underline by default.
-- [ ] Change the ul to not show bullets for each <li></li> item.
-- [ ] Change the default display of the <li></li> such that each <li></li> item will appear on the same line. 
+- [ ] Change the ul to not show bullets for each li item.
+- [ ] Change the default display of the li such that each li item will appear on the same line. 
 
 ### Learn about the [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 #### nav 
