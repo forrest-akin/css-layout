@@ -52,12 +52,12 @@ Before jumping into styling individual sections of the page, think about common 
 
 ### Learn about the [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 #### nav 
-- [ ] Apply margin and/or padding between each <li></li> to vertically center the icons. 
-- [ ] Vertically align the <li></li> items to the top. 
+- [ ] Apply margin and/or padding between each li to vertically center the icons. 
+- [ ] Vertically align the li items to the top. 
 - [ ] Add a width and height property to image and make the user pic round using the border-radius property. 
 
 #### .main-content 
-- [ ] Change the display of <input /> so it will be on its own line. Use width and height properties to size it correctly.
+- [ ] Change the display of input so it will be on its own line. Use width and height properties to size it correctly.
 - [ ] Add padding and margin to space the elements in main-content.
 
 ### Floats and Positioning
@@ -73,7 +73,7 @@ Read about [floats and positioning](http://learn.shayhowe.com/html-css/positioni
 - [ ] Apply the class to both button elements. 
 
 ### Pseudo-classes
-Read about (Pseudo-classes)[http://www.w3schools.com/Css/css_pseudo_classes.asp]
+Read about [Pseudo-classes](http://www.w3schools.com/Css/css_pseudo_classes.asp)
 - [ ] Use a background image to center right position microphone.png on the input box
 - [ ] On hover state for <a></a>, have the mouse turn into a pointer cursor. 
 - [ ] On hover state or input, change the border color of the input box. Use color picker to determine the right color. 
@@ -81,7 +81,7 @@ Read about (Pseudo-classes)[http://www.w3schools.com/Css/css_pseudo_classes.asp]
 
 ### Optimizations 
 It's best practice to pre-size images to the size needed, rather than using larger than necessary images that are sized down using CSS selectors. 
-- [ ] Resize the user pic, icons, and user photo to be the appropriate size by default. 
+- [ ]  Resize the user pic, icons, and user photo to be the appropriate size by default. 
 - [ ]  Remove the CSS properties and classes that set a width and height to the user pic and icons. 
 - [ ]  Size the user pic and icons to be close to the size needed on the page. 
 
