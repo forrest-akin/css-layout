@@ -36,9 +36,9 @@ Build a page that looks like http://google.com using HTML and vanilla CSS - no o
 
 ### CSS Sections
 
-Pages are composed of different sections. Each group of elements should be contained inside of another element, typically a <div></div> called a wrapper or a container. These containers compose the sections of a page.  
+Pages are composed of different sections. Each group of elements should be contained inside of another element, typically a div called a wrapper or a container. These containers compose the sections of a page.  
 
-- [ ] Break the design into sections. Each section should have a container that will hold a sub-group of elements inside it. 
+- [ ] Break the design into sections. Each section should have a container that will hold a sub-group of elements inside it. Determine what html elements on index.html are a part of what section.  
 - [ ] Create a container element for the main-content.
 - [ ] Add a different background color to each container. This helps with positioning elements and knowing their default size. 
 
@@ -46,7 +46,7 @@ Pages are composed of different sections. Each group of elements should be conta
 Before jumping into styling individual sections of the page, think about common styling shared between elements. Any styling that should be applied to all elements of the same type should be defined before styling for specific sections. Add default styling for the sprint to the top of the css sheet. 
 - [ ] Set a default font size and arial on the body. The font-family is arial.
 - [ ] Set the default font color. Use the color picker to determine the color. 
-- [ ] Change anchor tags (links) to not have an underline by default.
+- [ ] Change anchor tags (links) to not have an underline by default and be the correct hue of gray.
 - [ ] Change the ul to not show bullets for each li item.
 - [ ] Change the default display of the li such that each li item will appear on the same line. 
 
@@ -54,7 +54,7 @@ Before jumping into styling individual sections of the page, think about common 
 #### nav 
 - [ ] Apply margin and/or padding between each <li></li> to vertically center the icons. 
 - [ ] Vertically align the <li></li> items to the top. 
-- [ ] Make the user pic round using the border-radius property. 
+- [ ] Add a width and height property to image and make the user pic round using the border-radius property. 
 
 #### .main-content 
 - [ ] Change the display of <input /> so it will be on its own line. Use width and height properties to size it correctly.
@@ -62,7 +62,7 @@ Before jumping into styling individual sections of the page, think about common 
 
 ### Floats and Positioning
 Read about [floats and positioning](http://learn.shayhowe.com/html-css/positioning-content/)
-- [ ] Position the containers for the nav, center-content, and footer appropriately. 
+- [ ] Position the containers for the nav, main-content, and footer appropriately. 
 - [ ] Horizontally center the "Google" logo, a text input, and the buttons inside the main-content container. How does the display of the image and buttons affect how to center them?
 - [ ] Position the footer so it sticks to the bottom of the page.
 - [ ] Separate the footer links into two unordered lists. 
@@ -88,7 +88,7 @@ It's best practice to pre-size images to the size needed, rather than using larg
 Congrats! Your page should look extremely close to the mockup. Take a second look at the mockup and compare it with your styled page. Fix any styling that is not an exact replica of the mockup. 
 
 ### Extra credit:
-- [ ] Refactor the CSS to make the site responsive using vanilla css 
 - [ ] Sprites are often used for images to reduce the number of image files that need to be sent over HTTP. [Create a sprite](http://www.spritebox.net/) of all the images on the page and refactor the site to use sprites. 
 - [ ] Implement another mockup using CSS best practices 
+- [ ] Refactor to make the site responsive using vanilla css 
 
