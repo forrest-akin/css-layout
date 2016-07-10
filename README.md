@@ -89,6 +89,7 @@ Congrats! Your page should look extremely close to the mockup. Take a second loo
 
 ### Extra credit:
 - [ ] Sprites are often used for images to reduce the number of image files that need to be sent over HTTP. [Create a sprite](http://www.spritebox.net/) of all the images on the page and refactor the site to use sprites. 
-- [ ] Implement another mockup using CSS best practices 
-- [ ] Refactor to make the site responsive using vanilla css 
+- [ ] Implement [this site](https://www.palantir.com/). Use a static photo for the jumbotron. 
+- [ ] Refactor to make the [site responsive](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/) using vanilla css (no Bootstrap!). 
+- [ ] Refactor the site to use a responsive video header. 
 
