@@ -50,7 +50,7 @@ Before jumping into styling individual sections of the page, think about common 
 - [ ] Change the ul to not show bullets for each li item.
 - [ ] Change the default display of the li such that each li item will appear on the same line. 
 
-### Learn about the [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+Learn about the [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 #### nav 
 - [ ] Apply margin and/or padding between each li to vertically center the icons. 
 - [ ] Vertically align the li items to the top. 
