@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <!-- Nav -->
-    <nav>
-      <ul>
-        <li>
-          <span><a href="#">Gmail</a></span>
-        </li>
-        <li>
-          <span><a href="#">Images</a></span>
-        </li>
-        <li>
-          <img class="icon" src="./assets/grid_icon.png" />
-        </li>
-        <li>
-          <img class="icon" src="./assets/bell_icon.png" />
-        </li>
-        <li>
-          <img class="user_pic" src="./assets/user_pic.jpg" />
-        </li>
-      </ul>
-    </nav>
+  <div class="default">
+      <!-- Nav -->
+    <div class="nav-container">
+      <nav>
+        <div class="list-container">
+          <ul>
+            <li>
+              <span><a href="#">Gmail</a></span>
+            </li>
+            <li>
+              <span><a href="#">Images</a></span>
+            </li>
+            <li>
+              <img class="icon" src="./assets/grid_icon.png" />
+            </li>
+            <li>
+              <img class="icon" src="./assets/bell_icon.png" />
+            </li>
+            <li>
+              <img class="user_pic" src="./assets/user_pic.jpg" />
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
     <!-- main-content -->
-    <div class="main-content">
-      <img src="./assets/logo.png" />
-      <input />
+    <div class="main-container">
+      <img class="logo" src="./assets/logo.png" />
+      <div class="input-container">
+        <input />
+        <img class="mic" src="./assets/microphone.png" alt="">
+      </div>
       <div class="btn-container">
         <button>Google Search</button>
         <button>I'm Feeling Lucky</button>
@@ -35,17 +45,22 @@
     </div>
 
     <!-- footer -->
-    <footer>
-      <ul>
-        <li><a href="#">Advertising</a></li>
-        <li><a href="#">Business</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-      <ul class="align-right">
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Terms</a></li>
-        <li><a href="#">Settings</a></li>
-      </ul>
-    </footer>
+    <div class="footer-container">
+      <footer>
+        <div class="list-container">
+          <ul class="align-left">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <ul class="align-right">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
   </body>
 </html>

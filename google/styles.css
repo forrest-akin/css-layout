@@ -1,9 +1,119 @@
 /* default styling */
+.default * {
+    font-size: small;
+    font-family: Arial;
+    color: #666666;
+    margin: 0;
+    padding: 0;
+}
+
+.default a {
+    text-decoration: none;
+}
+
+.default ul {
+    list-style: none;
+    display: inline;
+}
+
+.default li {
+    display: inline;
+}
 
 /* nav */
+.nav-container .list-container * {
+    vertical-align: middle;
+}
+
+.nav-container .list-container ul {
+    position: absolute;
+    right: 6px;
+    padding: 16px;
+}
+
+.nav-container .list-container li {
+    padding: 8px;
+}
+
+.user_pic {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
 
 /* main-content */
+.main-container {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.input-container {
+    margin: 30px;
+}
+
+input {
+    font-size: medium;
+    height: 35px;
+    width: 600px;
+}
+
+input::hover {
+    border: 2px solid black;
+}
+
+input::active {
+    border: 2px solid blue;
+}
+
+.mic {
+    position: relative;
+    right: 35px;
+    top: 8px;
+    height: 24px;
+    width: 30px;
+}
+
+.btn-container * {
+    height: 35px;
+    width: 135px;
+    margin: 0 2px;
+    border-style: none;
+    background: #F4F4F4;
+    font-weight: bold;
+}
+
+.btn-container button::hover {
+    box-shadow: 10px 10px 5px grey;
+}
 
 /* footer */
+.footer-container {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #F2F2F2;
+}
 
+.footer-container .list-container * {
+    vertical-align: middle;
+}
+
+.footer-container .list-container ul {
+    padding: 14px;
+}
+
+.footer-container .list-container li {
+    padding: 14px;
+}
+
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+}
 /* helper classes */
