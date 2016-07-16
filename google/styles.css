@@ -11,6 +11,10 @@
     text-decoration: none;
 }
 
+.default a:hover {
+    text-decoration: underline;
+}
+
 .default ul {
     list-style: none;
     display: inline;
@@ -50,30 +54,28 @@
     text-align: center;
 }
 
-.input-container {
+.input-container * {
     margin: 30px;
+    font-size: 16px;
+    color: black;
+    padding: 0px 10px;
+    outline: none;
 }
 
 input {
-    font-size: medium;
-    height: 35px;
-    width: 600px;
+    background: url('assets/microphone.png') no-repeat right center;
+    background-size: 30px 25px;
+    border: 1px solid #E4E4E4;
+    height: 40px;
+    width: 570px;
 }
 
-input::hover {
-    border: 2px solid black;
+input:hover {
+    border: 1px solid #A0A0A0;
 }
 
-input::active {
-    border: 2px solid blue;
-}
-
-.mic {
-    position: relative;
-    right: 35px;
-    top: 8px;
-    height: 24px;
-    width: 30px;
+input:focus {
+    border: 1px solid #4D90FE;
 }
 
 .btn-container * {
@@ -81,12 +83,16 @@ input::active {
     width: 135px;
     margin: 0 2px;
     border-style: none;
+    border-radius: 2px;
     background: #F4F4F4;
     font-weight: bold;
 }
 
-.btn-container button::hover {
-    box-shadow: 10px 10px 5px grey;
+.btn-container button:hover {
+    box-shadow: 0px 1px 1px #F1F1F1;
+    border: 1px solid #C6C6C6;
+    color: black;
+    outline: none;
 }
 
 /* footer */
