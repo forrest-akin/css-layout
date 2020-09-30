@@ -8,6 +8,7 @@ You are a front-end developer tasked with implementing the HTML/CSS for a mockup
 - Know best practices for working with CSS code 
 - Evaluate different ways of selecting and classifying elements 
 - Understand the Box Model and display properties 
+- flex is the one of the most handy tool, thal will help you to make responsive websites.
 - Work with positioning elements and floats 
 - Gain exposure to pseudo-classes and background images
 
